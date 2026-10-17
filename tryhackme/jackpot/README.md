@@ -108,7 +108,7 @@ the winning command was:
 printf '\x02\x00\x00\x04\xf1\x00\x10' | nc <IP> 9100
 ```
 
-this activated the flag command, which I then executed
+this deactivated the monitoring system, which allowed me to repeat the command to dispense the cassettes one after the other, without lockouts. Once the vault was empty, the get_flag command was activated.
 
 the flag
 
