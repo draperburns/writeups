@@ -3,6 +3,7 @@ TryHackMe
 16/10/2026
 
 Author: k888
+https://tryhackme.com/p/k888
 
 Difficulty: Medium
 
