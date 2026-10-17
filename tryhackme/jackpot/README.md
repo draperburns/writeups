@@ -111,5 +111,5 @@ this activated the flag command, which I then executed
 
 the flag
 
-![alt text](/images/flag!.png)
+![alt text](writeups/tryhackme/jackpot/images/flag!.png)
 
