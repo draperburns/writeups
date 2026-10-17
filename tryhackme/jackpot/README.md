@@ -23,7 +23,7 @@ nmap -sC -sV <TARGETIP> -oN initialscan.txt
 then I did some fuzzing
 
 ```shell
-ffuf -u https://<TARGETIP>:8080/FUZZ -w wordlist.txt
+ffuf -u http://<TARGETIP>:8080/FUZZ -w wordlist.txt
 ```
 (for the ffuf scan its important to run one quickly and figure out the word length of false positives, then use the -fs flag to filter these out)
 
@@ -53,7 +53,7 @@ The terminal service on this port wasnt plaintext based, everything was in bytes
 Inkeeping with the requested format, I constructed my first request:
 
 ```shell
-printf 'x01\x00\x00\x03\x04\x00\x00' | nc <TARGETIP> 9100
+printf '\x01\x00\x00\x03\x04\x00\x00' | nc <TARGETIP> 9100
 ```
 
 for clarity I'll break down each byte
