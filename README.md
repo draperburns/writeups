@@ -1,4 +1,4 @@
 List of my writeups for various challenges and machines
 
-## /tryhackme
+## https://github.com/draperburns/writeups/tree/main/tryhackme/jackpot
 
